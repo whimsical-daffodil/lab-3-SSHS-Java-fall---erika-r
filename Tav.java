@@ -42,12 +42,12 @@ public class Tav {
    public void printCharacterSheet() {
        System.out.println("Name: " + this.name);
        System.out.println("Adventure Rank: " + this.ar);
-       System.out.println("â”€â”€â”€ ï½¥ ï½¡ï¾Ÿâ˜†: *.â˜½ .* :â˜†ï¾Ÿ. â”€â”€â”€");
-       System.out.println("HP: " + this.hp);
-       System.out.println("ATK: " + this.atk);
-       System.out.println("DEF: " + this.def);
+       System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+       System.out.println("HP: " +                     this.hp);
+       System.out.println("ATK: " +                   this.atk);
+       System.out.println("DEF: " +                   this.def);
        System.out.println("Elemental Mastery: " + this.mastery);
-       System.out.println("Stamina: " + this.stamina);
+       System.out.println("Stamina: " +           this.stamina);
      
    }
 
